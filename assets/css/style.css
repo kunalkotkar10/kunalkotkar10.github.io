@@ -414,6 +414,15 @@ main {
   visibility: visible;
 }
 
+.contact-bio {
+  width: auto;
+  color: var(--light-gray);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-300);
+  line-height: 1.6;
+  text-align: center;
+}
+
 .contacts-list {
   display: grid;
   grid-template-columns: 1fr;
@@ -437,6 +446,14 @@ main {
   font-size: var(--fs-8);
   text-transform: uppercase;
   margin-bottom: 2px;
+}
+
+.contact-title-bio {
+  color: var(--light-gray-70);
+  font-size: var(--fs-8);
+  text-transform: uppercase;
+  margin-bottom: 2px;
+  text-align: center;
 }
 
 .contact-info :is(.contact-link, time, address) {
