@@ -332,8 +332,17 @@ main {
 }
 
 .avatar-box {
-  background: var(--bg-gradient-onyx);
+  /* background: var(--bg-gradient-onyx); */
   border-radius: 20px;
+}
+
+@media (max-width: 450px) {
+  .avatar-box {
+    height: 82.23px; /* Make sure the box is as tall as it is wide */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 .avatar-img {
