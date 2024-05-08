@@ -441,6 +441,11 @@ main {
   width: calc(100% - 46px);
 }
 
+.contact-info-bio {
+  max-width: 100%;
+  width: 100%;
+}
+
 .contact-title {
   color: var(--light-gray-70);
   font-size: var(--fs-8);
@@ -1918,6 +1923,8 @@ textarea.form-input::-webkit-resizer { display: none; }
   }
 
   .social-list { justify-content: center; }
+
+  /* .social-list { align-self: center;} */
 
 
 
