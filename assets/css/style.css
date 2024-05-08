@@ -336,6 +336,14 @@ main {
   border-radius: 20px;
 }
 
+.avatar-img {
+  /* make the image round and fit centrally*/
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
 .info-content .name {
   color: var(--white-2);
   font-size: var(--fs-3);
@@ -440,7 +448,7 @@ main {
 
 .social-item .social-link {
   color: var(--light-gray-70);
-  font-size: 18px;
+  font-size: 26px;
 }
 
 
@@ -505,6 +513,20 @@ main {
 }
 
 .about-text p { margin-bottom: 15px; }
+
+.aboutme-link {
+  display: inline;
+  text-decoration: none; /* Removes underline */
+  color: var(--vegas-gold); /* Changes the color of the link */
+}
+
+.aboutme-link:hover {
+  text-shadow: 0 0 8px gray; /* Creates a glow effect on hover */
+} 
+
+.aboutme-link:visited {
+   color: var(--vegas-gold); /*Keeps the link the same color even after it's been clicked */
+} 
 
 
 
