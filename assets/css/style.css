@@ -887,6 +887,27 @@ main {
  * skills 
  */
 
+ .skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; /* Adjust the spacing between the blocks */
+  margin-top: 20px;
+}
+
+.skill-block {
+  background-color: var(--bg-gradient-jet); /* Background color of the skill block */
+  border: 1px solid var(--jet); /* Border color */
+  border-radius: 10px; /* Rounded corners */
+  padding: 10px 20px; /* Padding inside the block */
+  font-size: 14px; /* Font size */
+  font-weight: 500; /* Font weight */
+  color: var(--light-gray); /* Text color */
+  white-space: nowrap; /* Prevent text from wrapping */
+  overflow: hidden;
+  text-overflow: ellipsis; /* Ellipsis for overflow text */
+}
+
+
 .skills-title { margin-bottom: 20px; }
 
 .skills-list { padding: 20px; }
