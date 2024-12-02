@@ -153,7 +153,10 @@ input, textarea {
 
 :focus { outline-color: var(--orange-yellow-crayola); }
 
-html { font-family: var(--ff-poppins); }
+html {
+  font-family: var(--ff-poppins); 
+  scroll-behavior: smooth;
+}
 
 body { background: var(--smoky-black); }
 
@@ -208,7 +211,7 @@ article {
 
 .icon-box ion-icon { --ionicon-stroke-width: 35px; }
 
-article { display: none; }
+/* article { display: none; } */
 
 article.active {
   display: block;
@@ -1868,8 +1871,13 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .sidebar, article { width: auto; }
 
-  article { min-height: 100%; }
+  /* article { min-height: 100%; } */
 
+  /* article + article { margin-bottom: 20px; }   */
+  article + article {
+    margin-top: 1.5rem;
+  }
+  
 
 
   /**

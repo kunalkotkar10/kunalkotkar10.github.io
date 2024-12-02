@@ -74,7 +74,7 @@
             <div class="contact-info-bio">
               <p class="contact-title-bio">Bio</p>
 
-              <p class="contact-bio">Earned a Master's degree in Computer Science from Johns Hopkins University in May 2024, with a strong focus on Computer Vision, Large Language Models, and Full-stack Development. Presently employed at HEPIUS Innovation Lab in Baltimore.</address>
+              <p class="contact-bio">Earned a Master's degree in Computer Science from Johns Hopkins University in May 2024, with a strong focus on Computer Vision, Large Language Models, and Full-stack Development. Presently employed at Surgical Vision Systems Inc in Baltimore.</address>
               <!-- <a> Graduated as Master's in CS from Johns Hopkins in May 2024. Highly enthusiastic about Computer Vision, Large Language Models and Fullstack Development. </a> -->
             </div>
 
@@ -185,15 +185,18 @@
         <ul class="navbar-list">
 
           <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
+            <!-- <button class="navbar-link  active" data-nav-link>About</button> -->
+            <a href="#about" class="navbar-link" data-nav-link>About</a>
           </li>
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Experience</button>
+            <!-- <button class="navbar-link" data-nav-link>Experience</button> -->
+            <a href="#experience" class="navbar-link" data-nav-link>Experience</a>
           </li>
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Projects</button>
+            <!-- <button class="navbar-link" data-nav-link>Projects</button> -->
+            <a href="#projects" class="navbar-link" data-nav-link>Projects</a>
           </li>
 
           <!-- <li class="navbar-item">
@@ -205,7 +208,8 @@
           </li>  -->
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Publications</button>
+            <!-- <button class="navbar-link" data-nav-link>Publications</button> -->
+            <a href="#publications" class="navbar-link" data-nav-link>Publications</a>
           </li>
 
           <!-- <li class="navbar-item">
@@ -224,7 +228,7 @@
         - #ABOUT
       -->
 
-      <article class="about active" data-page="about">
+      <article class="about" id="about">
 
         <header>
           <h2 class="h2 article-title">About me</h2>
@@ -459,7 +463,7 @@
                 <img src="./assets/images/jhulogo.png" alt="JHU Logo" width="80" data-modal-img>
               </figure>
 
-              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+              <!-- <img src="./assets/images/icon-quote.svg" alt="quote icon"> -->
             </div>
 
             <div class="modal-content">
@@ -496,7 +500,7 @@
                 <img src="./assets/images/whitinglogo.png" alt="JHU Logo" width="80" data-modal-img>
               </figure>
 
-              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+              <!-- <img src="./assets/images/icon-quote.svg" alt="quote icon"> -->
             </div>
 
             <div class="modal-content">
@@ -582,7 +586,80 @@
         - #RESUME
       -->
 
-      <article class="experience" data-page="experience">
+      <article class="experience" id="experience">
+
+        <header>
+          <h2 class="h2 article-title">Experience</h2>
+        </header>
+
+      <section class="timeline">
+
+        <!-- Education Section -->
+        <div class="title-wrapper">
+          <div class="icon-box">
+            <ion-icon name="school-outline"></ion-icon>
+          </div>
+          <h3 class="h3">Education</h3>
+        </div>
+        <ol class="timeline-list">
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">Johns Hopkins University</h4>
+            <p class="timeline-text">Master's in Computer Science, GPA: 3.84/4</p>
+            <span>May 2024</span>
+          </li>
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">University of Mumbai</h4>
+            <p class="timeline-text">Bachelor's in Computer Engineering, GPA: 9.6/10</p>
+            <span>July 2022</span>
+          </li>
+        </ol>
+      
+        <!-- Professional Experience Section -->
+        <div class="title-wrapper">
+          <div class="icon-box">
+            <ion-icon name="briefcase-outline"></ion-icon>
+          </div>
+          <h3 class="h3">Professional Experience</h3>
+        </div>
+        <ol class="timeline-list">
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">Computer Vision Engineer</h4>
+            <p class="timeline-text">Surgical Vision Systems Inc.</p>
+            <span>July 2024 - Present</span>
+            <p class="timeline-text">
+              Spearheaded the creation of a dataset with 7,800+ surgical instrument images, achieving a detection mAP50 score of 93.6% using YOLO11 and SAM2.
+            </p>
+          </li>
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">Machine Learning Research Engineer</h4>
+            <p class="timeline-text">HEPIUS Innovation Lab </p>
+            <span>Jan 2023 - May 2024</span>
+            <p class="timeline-text">
+              Developed injury detection systems with up to 99.5% accuracy using Yolov8 and designed deep learning models for anatomical segmentation with a mean IOU of 82%.
+            </p>
+          </li>
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">Lead Teaching Assistant</h4>
+            <p class="timeline-text">Johns Hopkins University</p>
+            <span>Jan 2023 - May 2024</span>
+            <p class="timeline-text">
+              Led a 20-member team, coordinated grading, supported faculty, and provided mentorship via office hours to enhance academic engagement.
+            </p>
+          </li>
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">Machine Learning Intern</h4>
+            <p class="timeline-text">Knowledge Solutions India</p>
+            <span>May 2020 - June 2020</span>
+            <p class="timeline-text">
+              Designed and implemented machine learning models, including Regression, Random Forest, and K-Means Clustering, for movie recommendation tasks, enhancing user engagement with advanced KNN techniques.
+            </p>
+          </li>
+        </ol>
+      
+      </section>
+      
+
+      <!-- <article class="experience" id="experience">
 
         <header>
           <h2 class="h2 article-title">Experience</h2>
@@ -631,20 +708,6 @@
               </p>
 
             </li>
-
-            <!-- <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">High school of art and design</h4>
-
-              <span>2002 — 2004</span>
-
-              <p class="timeline-text">
-                Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut fugit, sed consequuntur
-                magni dolores
-                eos.
-              </p>
-
-            </li> -->
 
           </ol>
 
@@ -710,7 +773,7 @@
 
           </ol>
 
-        </section>
+        </section> -->
 
         <section class="skill">
 
@@ -851,7 +914,7 @@
         - #PORTFOLIO
       -->
 
-      <article class="projects" data-page="projects">
+      <article class="projects" id="projects">
 
         <header>
           <h2 class="h2 article-title">Projects</h2>
@@ -988,7 +1051,7 @@
             </li>
 
             <li class="project-item  active" data-filter-item data-category="software">
-              <a href="https://jhu-courses.herokuapp.com/"  target="_blank">
+              <a href="https://github.com/jhu-oose-f22/team-teamsentience"  target="_blank">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
@@ -1024,7 +1087,7 @@
             </li>
 
             <li class="project-item  active" data-filter-item data-category="software">
-              <a href="#">
+              <a href="#projects">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
@@ -1093,7 +1156,7 @@
 
       <!-- <article class="blog" data-page="blog"> -->
 
-      <article class="publications" data-page="publications">
+      <article class="publications" id="publications">
 
         <!-- <header>
           <h2 class="h2 article-title">Blog</h2>
