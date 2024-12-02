@@ -1388,6 +1388,10 @@ textarea.form-input::-webkit-resizer { display: none; }
     font-size: 18px;
   }
 
+  article + article {
+    margin-top: 1rem;
+  }
+
 
 
   /**
@@ -1634,6 +1638,10 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .sidebar, article { width: 700px; }
 
+  article + article {
+    margin-top: 1.5rem;
+  }
+
   .has-scrollbar::-webkit-scrollbar-button { width: 100px; }
 
 
@@ -1753,6 +1761,10 @@ textarea.form-input::-webkit-resizer { display: none; }
   .sidebar, article {
     width: 950px;
     box-shadow: var(--shadow-5);
+  }
+
+  article + article {
+    margin-top: 1.5rem;
   }
 
 
